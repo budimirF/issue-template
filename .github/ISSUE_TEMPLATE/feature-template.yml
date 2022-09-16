@@ -14,10 +14,14 @@ body:
       description: Briefly describe the idea.
       placeholder: ex. Add global search
     validations:
-      required: false
-  - type: markdown
+      required: true
+  - type: textarea
+    id: idea
     attributes:
-      value: |
+      label: Feature
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: 
         **Is your feature request related to a problem? Please describe.**
         A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
@@ -29,13 +33,5 @@ body:
 
         **Additional context**
         Add any other context or screenshots about the feature request here.
-
-  - type: textarea
-    id: idea
-    attributes:
-      label: Feature
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
