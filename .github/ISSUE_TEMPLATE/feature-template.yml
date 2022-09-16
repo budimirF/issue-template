@@ -7,14 +7,6 @@ body:
     attributes:
       value: |
         Thanks for contributing!
-  - type: input
-    id: summary
-    attributes:
-      label: Summary
-      description: Briefly describe the idea.
-      placeholder: ex. Add global search
-    validations:
-      required: true
   - type: textarea
     id: idea
     attributes:
